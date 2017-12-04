@@ -1,0 +1,51 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgray;
+}
+#banner{
+  font-family: "Trebuchet MS", sans-serif, serif;
+  font-size: 52px;
+  text-align: left;
+  color: red;
+  text-shadow: 2px 2px 2px white;
+  background-image:url("https://images.freecreatives.com/wp-content/uploads/2016/03/Sports-Baseball-Wallpaper.jpg");
+  width: 100%;
+}
+.league{
+  font-family: fantasy;
+  font-size: 32px;
+  color: blue;
+  margin-top: 42px;
+  text-align: center;
+}
+.team{
+  font-family: sans-serif;
+  font-size: 1.4em;
+}
+.leagueseries{
+  background-color:white;
+  border-style: solid;
+  width:66%;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left:16%;
+}
+.prediction{
+  text-align:center;
+  margin-top:35px;
+}
+.question{
+  font-style: italic;
+  font-size:18px;
+  font-family: cursive;
+}
+.cred{
+  text-align:right;
+}
